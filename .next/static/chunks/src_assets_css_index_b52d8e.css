@@ -1,0 +1,20 @@
+/* [project]/src/assets/css/index.css [app-client] (css) */
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-twinkle {
+  animation: 5s infinite twinkle;
+}
+
+/*# sourceMappingURL=src_assets_css_index_b52d8e.css.map*/
